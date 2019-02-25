@@ -23,7 +23,7 @@ Conclusion: xgboost is clear winner.<br/>
 
 ### AUC<br/>
 gbm: 0.961<br/>
-xgboost: 0.9744-0.9748<br/>
+xgboost: 0.9644-0.967<br/>
 Conclusion: xgboost is sightly better.<br/>
 
 ### Feature Importance<br/>
