@@ -1,4 +1,6 @@
 # gbm vs xgboost comparison, Credit Card Fraud Detection Binary Classification<br/>
+Anonymized credit card transactions labeled as fraudulent or genuine.
+
 ## Experiment Environment<br/>
 1. 27 core, 71 processors (Intel(R) Xeon(R) CPU @ 2.10GHz)
 2. 528g total memory
@@ -45,15 +47,20 @@ Feature        Gain       Cover  Frequency<br/>
 6:      V3 0.001180491 0.000687422 0.02597403<br/>
 7:     V11 0.000798557 0.001000042 0.02597403<br/>
 
-## More references<br/>
-Quote from the author of xgboost:<br/>
-"Both xgboost and gbm follows the principle of gradient boosting. There are however, the difference in modeling details. Specifically, xgboost used a more regularized model formalization to control over-fitting, which gives it better performance.<br/>
+## About this Dataset<br/>
 
-We have updated a comprehensive tutorial on introduction to the model, which you might want to take a look at. Introduction to Boosted Trees<br/>
+Context<br/>
+It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.<br/>
 
-The name xgboost, though, actually refers to the engineering goal to push the limit of computations resources for boosted tree algorithms. Which is the reason why many people use xgboost. For model, it might be more suitable to be called as regularized gradient boosting."<br/>
+Content<br/>
+The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.<br/>
 
-References<br/>
-https://www.quora.com/What-is-the-difference-between-the-R-gbm-gradient-boosting-machine-and-xgboost-extreme-gradient-boosting<br/>
-https://xgboost.readthedocs.io/en/latest/tutorials/model.html<br/>
-https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db
+It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, ... V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-senstive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.<br/>
+
+Inspiration<br/>
+Identify fraudulent credit card transactions.<br/>
+
+Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.<br/>
+
+Acknowledgements<br/>
+The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection. More details on current and past projects on related topics are available on https://www.researchgate.net/project/Fraud-detection-5 and the page of the DefeatFraud project<br/>
