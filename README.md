@@ -11,8 +11,10 @@
 3. default gbm vs three variations of xgboost
 
 ## Example Results<br/>
-### Pipelined Processing<br/>
-![](img/flowchart.png)
+### xgboost ROC<br/>
+![](img/roc_xgboost.png)
+### gbm ROC<br/>
+![](img/roc_gbm.png)
 
 ### Time<br/>
 gbm: 4 mins<br/>
