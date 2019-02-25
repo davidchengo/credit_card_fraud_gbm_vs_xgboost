@@ -55,5 +55,5 @@ The name xgboost, though, actually refers to the engineering goal to push the li
 
 References<br/>
 https://www.quora.com/What-is-the-difference-between-the-R-gbm-gradient-boosting-machine-and-xgboost-extreme-gradient-boosting<br/>
-
 https://xgboost.readthedocs.io/en/latest/tutorials/model.html<br/>
+https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db
