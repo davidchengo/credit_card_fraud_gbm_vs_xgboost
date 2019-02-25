@@ -15,14 +15,14 @@
 ![](img/flowchart.png)
 
 ### Time<br/>
-gbm: 4 mins
-xgboost: 74s-76s
-Conclusion: xgboost is clear winner.
+gbm: 4 mins<br/>
+xgboost: 74s-76s<br/>
+Conclusion: xgboost is clear winner.<br/>
 
 ### AUC<br/>
-gbm: 0.9598
-xgboost: 0.9744-0.9748
-Conclusion: xgboost is a little better.
+gbm: 0.961<br/>
+xgboost: 0.9744-0.9748<br/>
+Conclusion: xgboost is sightly better.<br/>
 
 ### Feature Importance<br/>
 Feature gbm_fi<br/>
