@@ -1,7 +1,8 @@
-# Gbm (v‘2.1.3’) vs XGBboost(v‘0.81.0.1’) comparison, Credit Card Fraud Detection Binary Classification<br/>
+# gbm vs XGBboost comparison, Credit Card Fraud Detection Binary Classification<br/>
 ## Experiment Environment<br/>
 1. 27 core, 71 processors (Intel(R) Xeon(R) CPU @ 2.10GHz)
 2. 528g total memory
+3. Gbm (v‘2.1.3’) vs XGBboost(v‘0.81.0.1’) 
 
 ## Experiment Setup<br/>
 [Download Data from Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
