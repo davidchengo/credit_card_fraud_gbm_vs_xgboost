@@ -1,4 +1,4 @@
-# gbm vs XGBboost comparison, Credit Card Fraud Detection Binary Classification<br/>
+# gbm vs xgboost comparison, Credit Card Fraud Detection Binary Classification<br/>
 ## Experiment Environment<br/>
 1. 27 core, 71 processors (Intel(R) Xeon(R) CPU @ 2.10GHz)
 2. 528g total memory
