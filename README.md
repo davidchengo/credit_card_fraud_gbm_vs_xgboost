@@ -45,7 +45,7 @@ Feature        Gain       Cover  Frequency<br/>
 6:      V3 0.001180491 0.000687422 0.02597403<br/>
 7:     V11 0.000798557 0.001000042 0.02597403<br/>
 
-## More about gradient bossting algorithms<br/>
+## More references<br/>
 Quote from the author of xgboost:<br/>
 "Both xgboost and gbm follows the principle of gradient boosting. There are however, the difference in modeling details. Specifically, xgboost used a more regularized model formalization to control over-fitting, which gives it better performance.<br/>
 
