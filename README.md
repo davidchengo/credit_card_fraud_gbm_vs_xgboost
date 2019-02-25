@@ -44,3 +44,16 @@ Feature        Gain       Cover  Frequency<br/>
 5:      V4 0.059261483 0.149853021 0.32467532<br/>
 6:      V3 0.001180491 0.000687422 0.02597403<br/>
 7:     V11 0.000798557 0.001000042 0.02597403<br/>
+
+## More about gradient bossting algorithms<br/>
+Quote from the author of xgboost:<br/>
+"Both xgboost and gbm follows the principle of gradient boosting. There are however, the difference in modeling details. Specifically, xgboost used a more regularized model formalization to control over-fitting, which gives it better performance.<br/>
+
+We have updated a comprehensive tutorial on introduction to the model, which you might want to take a look at. Introduction to Boosted Trees<br/>
+
+The name xgboost, though, actually refers to the engineering goal to push the limit of computations resources for boosted tree algorithms. Which is the reason why many people use xgboost. For model, it might be more suitable to be called as regularized gradient boosting."<br/>
+
+References<br/>
+https://www.quora.com/What-is-the-difference-between-the-R-gbm-gradient-boosting-machine-and-xgboost-extreme-gradient-boosting<br/>
+
+https://xgboost.readthedocs.io/en/latest/tutorials/model.html<br/>
