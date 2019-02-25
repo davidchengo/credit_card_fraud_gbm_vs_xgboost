@@ -8,7 +8,7 @@
 [Download Data from Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 1. Total dataset = 284,807 x 31 with last column being binary outcome.
 2. 70% training and 30% testing.
-3. default gbm vs three variations of xgboost
+3. baseline gbm vs three variations of xgboost
 
 ## Example Results<br/>
 ### xgboost ROC<br/>
